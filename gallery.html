@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautician Makeup Services | Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="fas fa-spa text-primary me-2"></i>Beautician
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/gallery-hero.jpg') center/cover;">
+    <div class="container text-center text-white">
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <h1 class="display-4 fw-bold mb-4">Our Gallery</h1>
+          <p class="lead mb-4">Explore our stunning makeup transformations and beautiful looks</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Slider -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Featured Looks</h2>
+        <p class="lead text-muted">Our most popular and stunning transformations</p>
+      </div>
+      <div class="swiper mySwiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm">
+              <img src="images/bridal1.jpg" class="card-img-top" alt="Bridal Look 1" style="height: 400px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Elegant Bridal Look</h5>
+                <p class="card-text text-muted">Classic bridal makeup with modern touches</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm">
+              <img src="images/sangeet1.jpg" class="card-img-top" alt="Sangeet Look" style="height: 400px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Sangeet Glam</h5>
+                <p class="card-text text-muted">Glamorous look for pre-wedding celebrations</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm">
+              <img src="images/party1.jpg" class="card-img-top" alt="Party Makeup" style="height: 400px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Party Glamour</h5>
+                <p class="card-text text-muted">Stunning party makeup for special occasions</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card border-0 shadow-sm">
+              <img src="images/engagement1.jpg" class="card-img-top" alt="Engagement Look" style="height: 400px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Engagement Elegance</h5>
+                <p class="card-text text-muted">Beautiful engagement ceremony makeup</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Complete Gallery</h2>
+        <p class="lead text-muted">Browse through our complete collection of makeup looks</p>
+      </div>
+      <div class="row gallery-row justify-content-center">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/bridal1.jpg" data-caption="Bridal - June 2024">
+            <img src="images/bridal1_thumb.jpg" alt="Bridal - June 2024" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Bridal - June 2024</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/sangeet1.jpg" data-caption="Sangeet Look">
+            <img src="images/sangeet1_thumb.jpg" alt="Sangeet Look" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Sangeet Look</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/party1.jpg" data-caption="Party Makeup">
+            <img src="images/party1_thumb.jpg" alt="Party Makeup" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Party Makeup</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/engagement1.jpg" data-caption="Engagement - May 2024">
+            <img src="images/engagement1_thumb.jpg" alt="Engagement - May 2024" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Engagement - May 2024</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/bridal2.jpg" data-caption="Modern Bridal">
+            <img src="images/bridal2_thumb.jpg" alt="Modern Bridal" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Modern Bridal</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="gallery-card mb-4 position-relative" data-img="images/party2.jpg" data-caption="Evening Glam">
+            <img src="images/party2_thumb.jpg" alt="Evening Glam" class="img-fluid">
+            <div class="gallery-gradient"></div>
+            <div class="gallery-caption">Evening Glam</div>
+            <button class="gallery-view-btn">View Full Image</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <h2 class="fw-bold mb-4">Love What You See?</h2>
+          <p class="lead mb-4">Book your appointment today and get the same stunning look for your special occasion.</p>
+          <a href="contact.html" class="btn btn-light btn-lg px-5">Book Appointment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img id="lightboxImg" src="" alt="">
+    <div id="lightboxCaption" class="gallery-caption"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; 2024 Beautician Makeup Services. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="social-links">
+            <a href="#" class="text-white me-3" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-3" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    
+    // Swiper initialization
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
+    // Lightbox functionality
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const lightboxClose = document.getElementById('lightboxClose');
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        lightboxImg.src = item.getAttribute('data-img');
+        lightboxCaption.textContent = item.getAttribute('data-caption');
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+
+    // Close lightbox with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+
+    // Make "View Full Image" button open the lightbox
+    setTimeout(function() {
+      document.querySelectorAll('.gallery-view-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          var card = btn.closest('.gallery-card');
+          if (card) {
+            var img = card.getAttribute('data-img');
+            var caption = card.getAttribute('data-caption');
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = document.getElementById('lightboxImg');
+            var lightboxCaption = document.getElementById('lightboxCaption');
+            lightboxImg.src = img;
+            lightboxCaption.textContent = caption;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+    }, 100);
+  </script>
+</body>
+</html> 
